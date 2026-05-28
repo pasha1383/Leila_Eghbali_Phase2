@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (raw data should not be committed to public repos)
+# اگر داده محرمانه است، این خط را فعال کنید:
+# data/raw/
+
+# Processed data (تولید می‌شود از notebook 00)
+data/processed/*.csv
+data/processed/*.pkl
+
+# Saved models
+models/*.pkl
+models/*.pt
+models/*.h5
+models/*.joblib
+
+# Results (تولید می‌شود از notebook ها)
+results/figures/*.png
+results/figures/*.pdf
+results/metrics/*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
